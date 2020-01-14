@@ -7,31 +7,22 @@ I am Chirong, a data science passionate new graduate from Columbia Statistics Pr
 
 1. Text-to-Image Bird Generation
 
+In this project, we propose a Style-Based Attentional Generative Adversarial Network (SBAGAN) that allows unsupervised disentanglement
+of high-level attributes and an attention-driven refinement for text-to-image generation. Borrowing
+from StyleGan literature and AttnGan structure,
+this new generator can synthesize details at different regions of image by paying attentions to relevant parts in the text and by interpolating styles
+into different resolutions in the image. On CUB
+dataset, our generated 256*256 images have a
+higher inception score compared to existing methods. Detailed style and attention analysis is also
+performed by visualizing the different layers of
+SBA-GAN.
 
-```markdown
-Syntax highlighted code block
+![Image](./text-image.png)
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+2. Digits generation with different GANs
 
-1. Numbered
-2. List
+In this project, we explore various GANs to generate number digit images using training samples from two well-known datasets. We discover that GANs, with different architecture, are not easy to train and evaluate even though they can produce satisfactory results. Certain hyperparameters play an important role in helping GANs learn eﬀectively, not only for our own DCGAN model developed from adding up simple functional layers but also models found in recent papers with sophisticated designs. The results are demonstrated in threefold: quality of generated images, loss during the training process, and the Inception Score.
 
-**Bold** and _Italic_ and `Code` text
+![mnist](mnist.gif ) ![svhn](SVHN.gif "SVHN")   
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Trccc/Trccc.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
