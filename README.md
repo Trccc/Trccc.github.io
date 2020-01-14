@@ -2,8 +2,11 @@
 
 I am Chirong, a data science passionate new graduate from Columbia Statistics Program.
 
+### Skills
 
-### Projects I have done in Columbia
+Python(including PyTorch, TensorFlow), R, SQL, Scala, Cloud technology
+
+### Projects 
 
 #### 1.Text-to-Image Bird Generation
 
