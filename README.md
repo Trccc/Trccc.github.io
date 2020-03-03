@@ -1,6 +1,6 @@
 ## Welcome to Chirong's Page
 
-I am Chirong, a data science passionate new graduate from Columbia Statistics Program.
+I am Chirong, an upcoming CS Ph.D. student at Simon Fraser University, before that I graduated from M.A. Statistics Program at Columbia University.
 
 ### Skills
 
